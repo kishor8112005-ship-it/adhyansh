@@ -381,9 +381,11 @@ body.lock{overflow:hidden}
 .f-body h3{font-family:var(--f-display);font-size:1.3rem;line-height:1;text-transform:uppercase;letter-spacing:.01em}
 .f-body p{font-size:.82rem;color:#c9c6c0}
 .f-cta{
-  grid-column:span 2;background:var(--grad);border-color:transparent;color:#fff;
-  justify-content:flex-end;box-shadow:0 24px 50px -34px rgba(255,77,26,.9);
+  grid-column:span 3;background:var(--grad);border-color:transparent;color:#fff;
+  justify-content:center;padding:clamp(24px,2.6vw,34px);box-shadow:0 24px 50px -34px rgba(255,77,26,.9);
 }
+.f-cta h3{font-size:clamp(1.45rem,2vw,1.85rem)}
+.f-cta p{max-width:38ch;font-size:.88rem}
 .f-cta .f-ic{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.3);color:#fff}
 .f-cta h3{font-family:var(--f-display);font-size:1.45rem;text-transform:uppercase;letter-spacing:.01em;color:#fff;line-height:1}
 .f-cta p{color:rgba(255,255,255,.85);font-size:.83rem;line-height:1.45;max-width:34ch}
@@ -807,6 +809,7 @@ body.lock{overflow:hidden}
   .h1-line.accent{font-size:.66em}
   .bento{grid-template-columns:repeat(2,1fr)}
   .bento{grid-auto-rows:auto}
+  .f-cta{grid-column:span 2}
   .f-card{min-height:132px;padding:20px 18px}
   .f-photo{grid-row:span 1!important;grid-column:span 2;min-height:210px}
   .f-photo.big{grid-row:span 1!important;grid-column:span 2}

@@ -1,6 +1,6 @@
 # Adiyash Gym — Kandivali branch: rebuild concept
 
-A single-branch, mobile-first rebuild of your site (`adiyashgym.in`) built around **one location instead of seven**. The reference site asks a visitor to pick a branch first; this one assumes the visitor is already in Kandivali East and answers everything about this room — the address, the 24×7 door, the eleven facilities, the coaches, the plans, and a trial you can book in three taps.
+A single-branch, mobile-first rebuild of your site (`adiyashgym.in`) built around **one location instead of seven**. The reference site asks a visitor to pick a branch first; this one assumes the visitor is already in Kandivali East and answers everything about this room — the address, the 24×7 door, the ten facilities, the coaches, the plans, and a trial you can book in three taps.
 
 ---
 
@@ -54,7 +54,7 @@ Sections run in a rhythm: dark hero → light "The Room" → dark facilities →
 | --- | --- | --- |
 | Prices | ₹199 day / ₹1,499 month / ₹3,999 quarter / ₹11,999 year · PT from ₹4,000/month | **Indicative placeholders.** Replace with live rates. |
 | Phone | +91 93243 37728 | From your contact page. A Google listing also shows +91 88798 39335 — pick the one that rings at the desk. |
-| Facilities | 11 tiles including *All-branch access* | The source site notes all-branch access is **only** when joining from Kurla. Either reword the tile ("available on select plans") or remove it for Kandivali. |
+| Facilities | **10 tiles** — *All-branch access* removed | Resolved: your site notes all-branch access is only when joining from Kurla, so the tile and its mentions in the Annual plan and FAQ were removed. **Branch transfer** is kept — it's listed for Kandivali on your own facilities page. |
 | Reviews | 4 quotes credited to Google reviewers | Verify each quote is accurate and publicly visible; remove any you can't source. |
 | Coaches section | "16+ certified coaches" + roles | No individual names/photos invented — add real ones if you want a team grid. |
 | Footfall chart | Modelled curve | Replace `TRAFFIC` in `main.js` with real hourly counts if available. |
@@ -68,7 +68,7 @@ Sections run in a rhythm: dark hero → light "The Room" → dark facilities →
 
 - The **Before & After Stories** and Instagram reels section are your best conversion content; this rebuild keeps a three-card video row with play affordances and links to YouTube + `@adiyashgymkandivali`.
 - Your **FAQ set** is preserved word-for-word in intent and expanded with a beginner question.
-- **Branch transfer / all-branch access**, **steam & shower**, **lockers** and **nutrition counselling** are all still on the page — they're real differentiators.
+- **Branch transfer**, **steam & shower**, **lockers** and **nutrition counselling** are all still on the page — they're real differentiators. (All-branch access is intentionally absent: it's a Kurla-joining perk, not a Kandivali one.)
 - The footer still lists **all seven branches**, so this page can become the template for a per-branch site.
 
 ---
